@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sharepoint-client-side-solution",
+    "id": "a57658ab-5eab-4083-a91d-caedc97eaaae",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sharepoint description"
+      },
+      "longDescription": {
+        "default": "sharepoint description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sharepoint Feature",
+        "description": "The feature that activates elements of the sharepoint solution.",
+        "id": "0d0ef7af-717a-4f50-a9ba-62b4273f180f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sharepoint.sppkg"
+  }
+}
